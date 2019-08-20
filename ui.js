@@ -19,6 +19,6 @@ class UI {
     this.humidity.textContent = `Humidity: ${weather.main.humidity}%`;
     this.pressure.textContent = `Pressure: ${weather.main.pressure}hPa`;
     this.clouds.textContent = `Cloudly: ${weather.clouds.all}`;
-    this.wind.textContent = `w ${weather.wind.speed} km/h`
+    this.wind.textContent = `Wind: ${weather.wind.speed} km/h`
   }
 }
